@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TrafickManagementApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TrafickManagementApiApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(TrafickManagementApiApplication.class, args);
+  }
 
 }
