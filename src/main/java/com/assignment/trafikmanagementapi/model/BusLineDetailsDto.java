@@ -14,6 +14,9 @@ public class BusLineDetailsDto {
   @JsonProperty("LineNumber")
   private String lineNumber;
 
+  @JsonProperty("TotalNumberOfBusStops")
+  private int numberOfBusStops;
+
   @JsonProperty("BusStops")
   private List<BusStop> listOfBusStops;
 

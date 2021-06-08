@@ -10,10 +10,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class BusStop {
 
+  @JsonProperty("Number")
+  private String number;
+
   @JsonProperty("Name")
   private String name;
 
-  @JsonProperty("Number")
-  private String number;
 
 }

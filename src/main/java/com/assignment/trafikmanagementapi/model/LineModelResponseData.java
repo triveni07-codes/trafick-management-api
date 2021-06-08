@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ResponseData {
+public class LineModelResponseData {
 
   @JsonProperty("Version")
   private String version;

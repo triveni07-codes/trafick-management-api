@@ -20,6 +20,6 @@ public class TrafikLabLineResponse {
   private int executionTime;
 
   @JsonProperty("ResponseData")
-  private ResponseData responseData;
+  private LineModelResponseData lineModelResponseData;
 
 }

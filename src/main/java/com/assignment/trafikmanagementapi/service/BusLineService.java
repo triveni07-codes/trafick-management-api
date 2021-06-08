@@ -5,7 +5,12 @@ import static java.util.stream.Collectors.groupingBy;
 import com.assignment.trafikmanagementapi.client.TrafikLabClient;
 import com.assignment.trafikmanagementapi.model.BusLine;
 import com.assignment.trafikmanagementapi.model.BusLineDetailsDto;
-import com.assignment.trafikmanagementapi.model.ResponseData;
+import com.assignment.trafikmanagementapi.model.BusStop;
+import com.assignment.trafikmanagementapi.model.LineModelResponseData;
+import com.assignment.trafikmanagementapi.model.StopPointModelResponseData;
+import com.assignment.trafikmanagementapi.model.TrafikLabLineResponse;
+import com.assignment.trafikmanagementapi.util.FileReader;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -21,37 +26,78 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class BusLineService {
 
+  private final int MAX_BUS_LINES = 10;
+
+  @Autowired
+  FileReader fileReader;
+  @Autowired
+  ObjectMapper objectMapper;
   @Autowired
   private TrafikLabClient trafikLabClient;
 
-  public List<BusLineDetailsDto> getTop10BusLines() {
+  public List<BusLineDetailsDto> getTopBusLines() {
 
-    Map<String, List<BusLine>> top10BusLinesWithBusStopNumbers = getTop10BusLinesWithBusStopNumbers();
-
-    return new ArrayList<>();
+    List<BusLineDetailsDto> busLinesDetails = extractBusLinesWithBusStopNumbers();
+  //  enrichBusLinesDetailsWithStopName();
+    return busLinesDetails;
 
   }
 
-  private Map<String, List<BusLine>> getTop10BusLinesWithBusStopNumbers() {
-    ResponseData responseData = trafikLabClient.getAllBusLines().getResponseData();
-    final Map<String, List<BusLine>> groupedBusLines = responseData.getBusLines().stream()
+  private void enrichBusLinesDetailsWithStopName() {
+    StopPointModelResponseData lineModelResponseData = trafikLabClient.getAllBusStops().getStopPointModelResponseData();
+  }
+
+  private List<BusLineDetailsDto> extractBusLinesWithBusStopNumbers() {
+    // LineModelResponseData lineModelResponseData = trafikLabClient.getAllBusLines().getLineModelResponseData();
+    LineModelResponseData lineModelResponseData = fileReader.loadInputData("json/response-data.json", TrafikLabLineResponse.class)
+        .getLineModelResponseData();
+
+    final Map<String, List<BusLine>> groupedBusLines = lineModelResponseData.getBusLines().stream()
         .collect(groupingBy(BusLine::getLineNumber));
 
     Map<String, Integer> numberOfBusStopsPerLine = getNumberOfBusStopsPerLine(groupedBusLines);
     Map<String, Integer> topTenBusLines = sortByNumberOfBusStops(numberOfBusStopsPerLine);
 
-    Map<String, List<BusLine>> top10BusLinesWithBusStops = new HashMap<>();
-    topTenBusLines.forEach((k, v) -> {
-      top10BusLinesWithBusStops.put(k, groupedBusLines.get(k));
+    return mapTop10BusLinesWithBusStops(topTenBusLines, groupedBusLines);
+
+  }
+
+  private List<BusLineDetailsDto> mapTop10BusLinesWithBusStops(Map<String, Integer> topTenBusLines,
+      Map<String, List<BusLine>> groupedBusLines) {
+
+    List<BusLineDetailsDto> top10BusLinesDetails = new ArrayList<>();
+    topTenBusLines.forEach((lineNumber, numberOfBusStops) -> {
+      List<BusLine> busLines = groupedBusLines.get(lineNumber);
+      BusLineDetailsDto busLineDetailsDto = buildBusLineDetails(busLines);
+      busLineDetailsDto.setLineNumber(lineNumber);
+      busLineDetailsDto.setNumberOfBusStops(numberOfBusStops);
+      top10BusLinesDetails.add(busLineDetailsDto);
     });
 
-    return top10BusLinesWithBusStops;
+    return top10BusLinesDetails;
+
+  }
+
+  private BusLineDetailsDto buildBusLineDetails(List<BusLine> busLines) {
+
+    BusLineDetailsDto busLineDetailsDto = new BusLineDetailsDto();
+    List<BusStop> busStops = new ArrayList<>();
+    List<String> busStopNumbers = busLines.stream().map(BusLine::getJourneyPatternPointNumber)
+        .collect(Collectors.toList());
+    busStopNumbers.forEach(busStopNumber -> {
+      BusStop busStop = new BusStop();
+      busStop.setNumber(busStopNumber);
+      busStops.add(busStop);
+    });
+    busLineDetailsDto.setListOfBusStops(busStops);
+    return busLineDetailsDto;
+
   }
 
   private Map<String, Integer> sortByNumberOfBusStops(Map<String, Integer> numberOfBusStopsPerLine) {
     return numberOfBusStopsPerLine.entrySet().stream()
         .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-        .limit(10)
+        .limit(MAX_BUS_LINES)
         .collect(Collectors.toMap(
             Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
   }

@@ -34,7 +34,7 @@ public class BusLineController {
   @GetMapping(value = "/buslines",
       produces = {"application/json"})
   ResponseEntity<List<BusLineDetailsDto>> getTop10BusLines() {
-    return new ResponseEntity<List<BusLineDetailsDto>>(busLineService.getTop10BusLines(), HttpStatus.OK);
+    return new ResponseEntity<List<BusLineDetailsDto>>(busLineService.getTopBusLines(), HttpStatus.OK);
   }
 
 }
