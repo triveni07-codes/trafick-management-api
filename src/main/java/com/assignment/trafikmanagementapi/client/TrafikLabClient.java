@@ -1,6 +1,7 @@
 package com.assignment.trafikmanagementapi.client;
 
 import com.assignment.trafikmanagementapi.model.TrafikLabLineResponse;
+import com.assignment.trafikmanagementapi.model.TrafikLabStopPointResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
@@ -27,6 +28,14 @@ public class TrafikLabClient {
         .uri("/api2/LineData.json?key=e66e881a3e43400d89f79440dbac7abc&model=jour&DefaultTransportModeCode=BUS")
         .retrieve()
         .bodyToMono(TrafikLabLineResponse.class)
+        .block();
+  }
+
+  public TrafikLabStopPointResponse getAllBusStops() {
+    return webClient.get()
+        .uri("api2/LineData.json?key=e66e881a3e43400d89f79440dbac7abc&model=stop&StopAreaTypeCode=BUSTERM")
+        .retrieve()
+        .bodyToMono(TrafikLabStopPointResponse.class)
         .block();
   }
 

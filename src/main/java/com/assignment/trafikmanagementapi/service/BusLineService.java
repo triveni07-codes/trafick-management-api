@@ -38,18 +38,20 @@ public class BusLineService {
   public List<BusLineDetailsDto> getTopBusLines() {
 
     List<BusLineDetailsDto> busLinesDetails = extractBusLinesWithBusStopNumbers();
-  //  enrichBusLinesDetailsWithStopName();
+    enrichBusLinesDetailsWithStopName(busLinesDetails);
     return busLinesDetails;
 
   }
 
-  private void enrichBusLinesDetailsWithStopName() {
+  private void enrichBusLinesDetailsWithStopName(List<BusLineDetailsDto> busLinesDetails) {
     StopPointModelResponseData lineModelResponseData = trafikLabClient.getAllBusStops().getStopPointModelResponseData();
+    //TODO: map name
   }
 
   private List<BusLineDetailsDto> extractBusLinesWithBusStopNumbers() {
     // LineModelResponseData lineModelResponseData = trafikLabClient.getAllBusLines().getLineModelResponseData();
-    LineModelResponseData lineModelResponseData = fileReader.loadInputData("json/response-data.json", TrafikLabLineResponse.class)
+    LineModelResponseData lineModelResponseData = fileReader
+        .loadInputData("json/response-data.json", TrafikLabLineResponse.class)
         .getLineModelResponseData();
 
     final Map<String, List<BusLine>> groupedBusLines = lineModelResponseData.getBusLines().stream()
