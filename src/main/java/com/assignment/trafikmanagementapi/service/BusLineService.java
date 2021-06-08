@@ -7,6 +7,7 @@ import com.assignment.trafikmanagementapi.model.BusLine;
 import com.assignment.trafikmanagementapi.model.BusLineDetailsDto;
 import com.assignment.trafikmanagementapi.model.BusStop;
 import com.assignment.trafikmanagementapi.model.LineModelResponseData;
+import com.assignment.trafikmanagementapi.model.StopPoint;
 import com.assignment.trafikmanagementapi.model.StopPointModelResponseData;
 import com.assignment.trafikmanagementapi.model.TrafikLabLineResponse;
 import com.assignment.trafikmanagementapi.util.FileReader;
@@ -45,7 +46,17 @@ public class BusLineService {
 
   private void enrichBusLinesDetailsWithStopName(List<BusLineDetailsDto> busLinesDetails) {
     StopPointModelResponseData lineModelResponseData = trafikLabClient.getAllBusStops().getStopPointModelResponseData();
-    //TODO: map name
+
+    busLinesDetails.forEach(busLineObj -> {
+      busLineObj.getListOfBusStops().forEach(busStop -> {
+        StopPoint stop = lineModelResponseData.getStopPoints().stream()
+            .filter(stopPoint -> stopPoint.getStopPointNumber().equalsIgnoreCase(busStop.getNumber()))
+            .collect(Collectors.toList()).get(0);
+
+        busStop.setName(stop.getStopPointName());
+      });
+    });
+
   }
 
   private List<BusLineDetailsDto> extractBusLinesWithBusStopNumbers() {

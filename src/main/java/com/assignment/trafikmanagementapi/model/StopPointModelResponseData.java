@@ -18,6 +18,6 @@ public class StopPointModelResponseData {
   private String type;
 
   @JsonProperty("Result")
-  private List<StopPoint> stopPoint;
+  private List<StopPoint> stopPoints;
 
 }
