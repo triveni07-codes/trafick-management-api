@@ -1,0 +1,2214 @@
+[
+  {
+    "LineNumber": "119",
+    "TotalNumberOfBusStops": 72,
+    "BusStops": [
+      {
+        "Number": "12350",
+        "Name": "Persikogatan"
+      },
+      {
+        "Number": "12459",
+        "Name": "Svandammen"
+      },
+      {
+        "Number": "12461",
+        "Name": "Värsta allé"
+      },
+      {
+        "Number": "12467",
+        "Name": "Älvkvarnsvägen"
+      },
+      {
+        "Number": "12469",
+        "Name": "Uppgårdsvägen"
+      },
+      {
+        "Number": "12488",
+        "Name": "Björnbodaskolan"
+      },
+      {
+        "Number": "12499",
+        "Name": "Mellangårdsvägen"
+      },
+      {
+        "Number": "50082",
+        "Name": "Basgränd"
+      },
+      {
+        "Number": "50084",
+        "Name": "Trädgårdsmästarvägen"
+      },
+      {
+        "Number": "50086",
+        "Name": "Ivarskärrsvägen"
+      },
+      {
+        "Number": "50088",
+        "Name": "Björnbodavägen"
+      },
+      {
+        "Number": "50090",
+        "Name": "Daltorpsvägen"
+      },
+      {
+        "Number": "50092",
+        "Name": "Rödklövervägen"
+      },
+      {
+        "Number": "50094",
+        "Name": "Astrakangatan"
+      },
+      {
+        "Number": "50096",
+        "Name": "Hässelby gård"
+      },
+      {
+        "Number": "50098",
+        "Name": "Ormängsgatan"
+      },
+      {
+        "Number": "50100",
+        "Name": "Hässelby strand"
+      },
+      {
+        "Number": "50104",
+        "Name": "Griftegårdsgränd"
+      },
+      {
+        "Number": "50106",
+        "Name": "Hässelby strandväg"
+      },
+      {
+        "Number": "50108",
+        "Name": "Fyrklöversbackarna"
+      },
+      {
+        "Number": "50110",
+        "Name": "Markviksvägen"
+      },
+      {
+        "Number": "50112",
+        "Name": "Loviselundsvägen"
+      },
+      {
+        "Number": "50114",
+        "Name": "Vidholmsbackarna"
+      },
+      {
+        "Number": "50116",
+        "Name": "Riddersviksvägen"
+      },
+      {
+        "Number": "50118",
+        "Name": "Åkermyntan"
+      },
+      {
+        "Number": "50120",
+        "Name": "Viadukten"
+      },
+      {
+        "Number": "51523",
+        "Name": "Spånga station"
+      },
+      {
+        "Number": "55012",
+        "Name": "Riddersvik"
+      },
+      {
+        "Number": "55018",
+        "Name": "Lingonrisgränd"
+      },
+      {
+        "Number": "55020",
+        "Name": "Kråkbärsgränd"
+      },
+      {
+        "Number": "55022",
+        "Name": "Barnhemsvägen"
+      },
+      {
+        "Number": "55024",
+        "Name": "Odalgränd"
+      },
+      {
+        "Number": "55026",
+        "Name": "Backlöksvägen"
+      },
+      {
+        "Number": "55028",
+        "Name": "Knäckepilsgränd"
+      },
+      {
+        "Number": "55030",
+        "Name": "Backlura"
+      },
+      {
+        "Number": "12138",
+        "Name": "Spånga station"
+      },
+      {
+        "Number": "12349",
+        "Name": "Persikogatan"
+      },
+      {
+        "Number": "12351",
+        "Name": "Hässelby strand"
+      },
+      {
+        "Number": "12431",
+        "Name": "Björnbodaskolan"
+      },
+      {
+        "Number": "12433",
+        "Name": "Björnbodavägen"
+      },
+      {
+        "Number": "12458",
+        "Name": "Svandammen"
+      },
+      {
+        "Number": "12460",
+        "Name": "Värsta allé"
+      },
+      {
+        "Number": "12464",
+        "Name": "Utgårdsvägen"
+      },
+      {
+        "Number": "12466",
+        "Name": "Älvkvarnsvägen"
+      },
+      {
+        "Number": "12468",
+        "Name": "Uppgårdsvägen"
+      },
+      {
+        "Number": "12484",
+        "Name": "Mellangårdsvägen"
+      },
+      {
+        "Number": "12597",
+        "Name": "Astrakangatan"
+      },
+      {
+        "Number": "50081",
+        "Name": "Basgränd"
+      },
+      {
+        "Number": "50083",
+        "Name": "Trädgårdsmästarvägen"
+      },
+      {
+        "Number": "50085",
+        "Name": "Ivarskärrsvägen"
+      },
+      {
+        "Number": "50087",
+        "Name": "Daltorpsvägen"
+      },
+      {
+        "Number": "50089",
+        "Name": "Rödklövervägen"
+      },
+      {
+        "Number": "50091",
+        "Name": "Rädisvägen"
+      },
+      {
+        "Number": "50095",
+        "Name": "Hässelby gård"
+      },
+      {
+        "Number": "50097",
+        "Name": "Ormängsgatan"
+      },
+      {
+        "Number": "50103",
+        "Name": "Griftegårdsgränd"
+      },
+      {
+        "Number": "50105",
+        "Name": "Hässelby strandväg"
+      },
+      {
+        "Number": "50107",
+        "Name": "Fyrklöversbackarna"
+      },
+      {
+        "Number": "50109",
+        "Name": "Markviksvägen"
+      },
+      {
+        "Number": "50111",
+        "Name": "Loviselundsvägen"
+      },
+      {
+        "Number": "50113",
+        "Name": "Vidholmsbackarna"
+      },
+      {
+        "Number": "50115",
+        "Name": "Riddersviksvägen"
+      },
+      {
+        "Number": "50117",
+        "Name": "Åkermyntan"
+      },
+      {
+        "Number": "50119",
+        "Name": "Viadukten"
+      },
+      {
+        "Number": "55011",
+        "Name": "Riddersvik"
+      },
+      {
+        "Number": "55015",
+        "Name": "Lingonrisgränd"
+      },
+      {
+        "Number": "55017",
+        "Name": "Kråkbärsgränd"
+      },
+      {
+        "Number": "55019",
+        "Name": "Barnhemsvägen"
+      },
+      {
+        "Number": "55021",
+        "Name": "Odalgränd"
+      },
+      {
+        "Number": "55023",
+        "Name": "Backlöksvägen"
+      },
+      {
+        "Number": "55025",
+        "Name": "Knäckepilsgränd"
+      },
+      {
+        "Number": "55031",
+        "Name": "Backlura"
+      }
+    ]
+  },
+  {
+    "LineNumber": "135",
+    "TotalNumberOfBusStops": 70,
+    "BusStops": [
+      {
+        "Number": "12906",
+        "Name": "Slättens gård"
+      },
+      {
+        "Number": "13251",
+        "Name": "Klubbacken"
+      },
+      {
+        "Number": "13253",
+        "Name": "Selmedalsvägen"
+      },
+      {
+        "Number": "13255",
+        "Name": "Mälarhöjden"
+      },
+      {
+        "Number": "13257",
+        "Name": "Lugntorpsvägen"
+      },
+      {
+        "Number": "13259",
+        "Name": "Gillegatan"
+      },
+      {
+        "Number": "13261",
+        "Name": "Storsvängen"
+      },
+      {
+        "Number": "13273",
+        "Name": "Eksätravägen"
+      },
+      {
+        "Number": "13275",
+        "Name": "Frimurarvägen"
+      },
+      {
+        "Number": "13277",
+        "Name": "Slättgårdsskolan"
+      },
+      {
+        "Number": "13279",
+        "Name": "Vita Liljans väg"
+      },
+      {
+        "Number": "13281",
+        "Name": "Bredängsvägen"
+      },
+      {
+        "Number": "13283",
+        "Name": "Mälarhöjdsvägen"
+      },
+      {
+        "Number": "13285",
+        "Name": "Mälarhöjdsbadet"
+      },
+      {
+        "Number": "13287",
+        "Name": "Ålgrytebacken"
+      },
+      {
+        "Number": "13289",
+        "Name": "Minigolfbanan"
+      },
+      {
+        "Number": "13291",
+        "Name": "Stora Sällskapets väg"
+      },
+      {
+        "Number": "13292",
+        "Name": "Stora Sällskapets väg"
+      },
+      {
+        "Number": "13295",
+        "Name": "Frösätrabacken"
+      },
+      {
+        "Number": "13297",
+        "Name": "Örnsätrabacken"
+      },
+      {
+        "Number": "13299",
+        "Name": "Alsätravägen"
+      },
+      {
+        "Number": "13303",
+        "Name": "Gillsätragränd"
+      },
+      {
+        "Number": "13305",
+        "Name": "Måsholmstorget"
+      },
+      {
+        "Number": "13307",
+        "Name": "Vårbergsvägen"
+      },
+      {
+        "Number": "13309",
+        "Name": "Skärholmshallen"
+      },
+      {
+        "Number": "13311",
+        "Name": "Skärholmens Gårdsväg"
+      },
+      {
+        "Number": "13469",
+        "Name": "Bullerholmsgränd"
+      },
+      {
+        "Number": "13471",
+        "Name": "Stångholmsbacken"
+      },
+      {
+        "Number": "13475",
+        "Name": "Vårbergs centrum"
+      },
+      {
+        "Number": "13476",
+        "Name": "Vårbergs sjukhem"
+      },
+      {
+        "Number": "13478",
+        "Name": "Rönnholmsgränd"
+      },
+      {
+        "Number": "13480",
+        "Name": "Våruddsringen"
+      },
+      {
+        "Number": "70383",
+        "Name": "Skärholmen"
+      },
+      {
+        "Number": "70707",
+        "Name": "Bredäng"
+      },
+      {
+        "Number": "12905",
+        "Name": "Slättens gård"
+      },
+      {
+        "Number": "13251",
+        "Name": "Klubbacken"
+      },
+      {
+        "Number": "13254",
+        "Name": "Selmedalsvägen"
+      },
+      {
+        "Number": "13256",
+        "Name": "Mälarhöjden"
+      },
+      {
+        "Number": "13258",
+        "Name": "Lugntorpsvägen"
+      },
+      {
+        "Number": "13260",
+        "Name": "Gillegatan"
+      },
+      {
+        "Number": "13262",
+        "Name": "Storsvängen"
+      },
+      {
+        "Number": "13274",
+        "Name": "Eksätravägen"
+      },
+      {
+        "Number": "13276",
+        "Name": "Frimurarvägen"
+      },
+      {
+        "Number": "13278",
+        "Name": "Slättgårdsskolan"
+      },
+      {
+        "Number": "13280",
+        "Name": "Vita Liljans väg"
+      },
+      {
+        "Number": "13282",
+        "Name": "Bredängsvägen"
+      },
+      {
+        "Number": "13284",
+        "Name": "Mälarhöjdsvägen"
+      },
+      {
+        "Number": "13286",
+        "Name": "Mälarhöjdsbadet"
+      },
+      {
+        "Number": "13288",
+        "Name": "Ålgrytebacken"
+      },
+      {
+        "Number": "13290",
+        "Name": "Minigolfbanan"
+      },
+      {
+        "Number": "13291",
+        "Name": "Stora Sällskapets väg"
+      },
+      {
+        "Number": "13292",
+        "Name": "Stora Sällskapets väg"
+      },
+      {
+        "Number": "13296",
+        "Name": "Frösätrabacken"
+      },
+      {
+        "Number": "13298",
+        "Name": "Örnsätrabacken"
+      },
+      {
+        "Number": "13300",
+        "Name": "Alsätravägen"
+      },
+      {
+        "Number": "13302",
+        "Name": "Gillsätragränd"
+      },
+      {
+        "Number": "13304",
+        "Name": "Måsholmstorget"
+      },
+      {
+        "Number": "13306",
+        "Name": "Vårbergsvägen"
+      },
+      {
+        "Number": "13308",
+        "Name": "Skärholmshallen"
+      },
+      {
+        "Number": "13310",
+        "Name": "Skärholmens Gårdsväg"
+      },
+      {
+        "Number": "13470",
+        "Name": "Bullerholmsgränd"
+      },
+      {
+        "Number": "13471",
+        "Name": "Stångholmsbacken"
+      },
+      {
+        "Number": "13472",
+        "Name": "Stångholmsbacken"
+      },
+      {
+        "Number": "13474",
+        "Name": "Vårbergs centrum"
+      },
+      {
+        "Number": "13476",
+        "Name": "Vårbergs sjukhem"
+      },
+      {
+        "Number": "13478",
+        "Name": "Rönnholmsgränd"
+      },
+      {
+        "Number": "13480",
+        "Name": "Våruddsringen"
+      },
+      {
+        "Number": "13862",
+        "Name": "Bredäng"
+      },
+      {
+        "Number": "70393",
+        "Name": "Ekholmsvägen"
+      },
+      {
+        "Number": "70396",
+        "Name": "Skärholmen"
+      }
+    ]
+  },
+  {
+    "LineNumber": "144",
+    "TotalNumberOfBusStops": 65,
+    "BusStops": [
+      {
+        "Number": "13219",
+        "Name": "Linde"
+      },
+      {
+        "Number": "13221",
+        "Name": "Bolidenvägen"
+      },
+      {
+        "Number": "13223",
+        "Name": "Gullmarsplan"
+      },
+      {
+        "Number": "13401",
+        "Name": "Fruängen"
+      },
+      {
+        "Number": "13403",
+        "Name": "Fredrika Bremers gata"
+      },
+      {
+        "Number": "13405",
+        "Name": "Vantörsvägen"
+      },
+      {
+        "Number": "13407",
+        "Name": "Segeltorpsgränsen"
+      },
+      {
+        "Number": "13409",
+        "Name": "Herrängsplan"
+      },
+      {
+        "Number": "13411",
+        "Name": "Herrängens gård"
+      },
+      {
+        "Number": "13413",
+        "Name": "Apelvägen"
+      },
+      {
+        "Number": "13415",
+        "Name": "Långsjö torg"
+      },
+      {
+        "Number": "13417",
+        "Name": "Gullrisstigen"
+      },
+      {
+        "Number": "13419",
+        "Name": "Långsjöplan"
+      },
+      {
+        "Number": "13421",
+        "Name": "Myrvägen"
+      },
+      {
+        "Number": "13423",
+        "Name": "Stockbergsvägen"
+      },
+      {
+        "Number": "13425",
+        "Name": "Bromsvägen"
+      },
+      {
+        "Number": "13427",
+        "Name": "Vivelvägen"
+      },
+      {
+        "Number": "13429",
+        "Name": "Viktoriavägen"
+      },
+      {
+        "Number": "13431",
+        "Name": "Skyttes plan"
+      },
+      {
+        "Number": "13433",
+        "Name": "Älvsjögården"
+      },
+      {
+        "Number": "13435",
+        "Name": "Älvsjö station"
+      },
+      {
+        "Number": "13442",
+        "Name": "Prästgårdsgärdet"
+      },
+      {
+        "Number": "13443",
+        "Name": "Brännkyrka kyrka"
+      },
+      {
+        "Number": "13445",
+        "Name": "Parkudden"
+      },
+      {
+        "Number": "13447",
+        "Name": "Örby slott"
+      },
+      {
+        "Number": "13449",
+        "Name": "Juliaborg"
+      },
+      {
+        "Number": "13451",
+        "Name": "Tussmötevägen"
+      },
+      {
+        "Number": "13454",
+        "Name": "Toffelbacken"
+      },
+      {
+        "Number": "13455",
+        "Name": "Valla gärde"
+      },
+      {
+        "Number": "13457",
+        "Name": "Spindelvägen"
+      },
+      {
+        "Number": "13465",
+        "Name": "Enskede rackethall"
+      },
+      {
+        "Number": "13467",
+        "Name": "Sockengränd"
+      },
+      {
+        "Number": "13101",
+        "Name": "Gullmarsplan"
+      },
+      {
+        "Number": "13220",
+        "Name": "Linde"
+      },
+      {
+        "Number": "13222",
+        "Name": "Bolidenvägen"
+      },
+      {
+        "Number": "13401",
+        "Name": "Fruängen"
+      },
+      {
+        "Number": "13404",
+        "Name": "Fredrika Bremers gata"
+      },
+      {
+        "Number": "13406",
+        "Name": "Vantörsvägen"
+      },
+      {
+        "Number": "13408",
+        "Name": "Segeltorpsgränsen"
+      },
+      {
+        "Number": "13410",
+        "Name": "Herrängsplan"
+      },
+      {
+        "Number": "13412",
+        "Name": "Herrängens gård"
+      },
+      {
+        "Number": "13414",
+        "Name": "Apelvägen"
+      },
+      {
+        "Number": "13416",
+        "Name": "Långsjö torg"
+      },
+      {
+        "Number": "13418",
+        "Name": "Gullrisstigen"
+      },
+      {
+        "Number": "13420",
+        "Name": "Långsjöplan"
+      },
+      {
+        "Number": "13422",
+        "Name": "Myrvägen"
+      },
+      {
+        "Number": "13424",
+        "Name": "Stockbergsvägen"
+      },
+      {
+        "Number": "13426",
+        "Name": "Bromsvägen"
+      },
+      {
+        "Number": "13428",
+        "Name": "Vivelvägen"
+      },
+      {
+        "Number": "13430",
+        "Name": "Viktoriavägen"
+      },
+      {
+        "Number": "13432",
+        "Name": "Skyttes plan"
+      },
+      {
+        "Number": "13434",
+        "Name": "Älvsjögården"
+      },
+      {
+        "Number": "13436",
+        "Name": "Älvsjö station"
+      },
+      {
+        "Number": "13440",
+        "Name": "Älvsjövägen"
+      },
+      {
+        "Number": "13441",
+        "Name": "Prästgårdsgärdet"
+      },
+      {
+        "Number": "13444",
+        "Name": "Brännkyrka kyrka"
+      },
+      {
+        "Number": "13446",
+        "Name": "Parkudden"
+      },
+      {
+        "Number": "13448",
+        "Name": "Örby slott"
+      },
+      {
+        "Number": "13450",
+        "Name": "Juliaborg"
+      },
+      {
+        "Number": "13452",
+        "Name": "Tussmötevägen"
+      },
+      {
+        "Number": "13453",
+        "Name": "Toffelbacken"
+      },
+      {
+        "Number": "13456",
+        "Name": "Valla gärde"
+      },
+      {
+        "Number": "13458",
+        "Name": "Spindelvägen"
+      },
+      {
+        "Number": "13466",
+        "Name": "Enskede rackethall"
+      },
+      {
+        "Number": "13468",
+        "Name": "Sockengränd"
+      }
+    ]
+  },
+  {
+    "LineNumber": "1",
+    "TotalNumberOfBusStops": 62,
+    "BusStops": [
+      {
+        "Number": "10008",
+        "Name": "S:t Eriksgatan"
+      },
+      {
+        "Number": "10012",
+        "Name": "Celsiusgatan"
+      },
+      {
+        "Number": "10014",
+        "Name": "Scheelegatan"
+      },
+      {
+        "Number": "10016",
+        "Name": "Kungsbroplan"
+      },
+      {
+        "Number": "10024",
+        "Name": "Hötorget"
+      },
+      {
+        "Number": "10034",
+        "Name": "Humlegården"
+      },
+      {
+        "Number": "10038",
+        "Name": "Nybrogatan"
+      },
+      {
+        "Number": "10042",
+        "Name": "Jungfrugatan"
+      },
+      {
+        "Number": "10044",
+        "Name": "Värtavägen"
+      },
+      {
+        "Number": "10053",
+        "Name": "Frihamnsporten"
+      },
+      {
+        "Number": "10055",
+        "Name": "Sehlstedtsgatan"
+      },
+      {
+        "Number": "10057",
+        "Name": "Östhammarsgatan"
+      },
+      {
+        "Number": "10059",
+        "Name": "Rökubbsgatan"
+      },
+      {
+        "Number": "10061",
+        "Name": "Sandhamnsplan"
+      },
+      {
+        "Number": "10062",
+        "Name": "Gärdet"
+      },
+      {
+        "Number": "10066",
+        "Name": "Stureplan"
+      },
+      {
+        "Number": "10100",
+        "Name": "Cityterminalen"
+      },
+      {
+        "Number": "10154",
+        "Name": "Storskärsgatan"
+      },
+      {
+        "Number": "10156",
+        "Name": "Kampementsbacken"
+      },
+      {
+        "Number": "10449",
+        "Name": "Wivalliusgatan"
+      },
+      {
+        "Number": "10451",
+        "Name": "Lilla Essingen"
+      },
+      {
+        "Number": "10453",
+        "Name": "Primusgatan"
+      },
+      {
+        "Number": "10506",
+        "Name": "Regeringsgatan"
+      },
+      {
+        "Number": "10643",
+        "Name": "Mariebergsgatan"
+      },
+      {
+        "Number": "10727",
+        "Name": "Västerbroplan"
+      },
+      {
+        "Number": "10729",
+        "Name": "Fyrverkarbacken"
+      },
+      {
+        "Number": "10731",
+        "Name": "Broparken"
+      },
+      {
+        "Number": "10733",
+        "Name": "Flottbrovägen"
+      },
+      {
+        "Number": "10743",
+        "Name": "Frihamnen"
+      },
+      {
+        "Number": "10745",
+        "Name": "Fridhemsplan"
+      },
+      {
+        "Number": "10754",
+        "Name": "Essingetorget"
+      },
+      {
+        "Number": "10009",
+        "Name": "S:t Eriksgatan"
+      },
+      {
+        "Number": "10015",
+        "Name": "Scheelegatan"
+      },
+      {
+        "Number": "10019",
+        "Name": "Cityterminalen"
+      },
+      {
+        "Number": "10025",
+        "Name": "Hötorget"
+      },
+      {
+        "Number": "10031",
+        "Name": "Stureplan"
+      },
+      {
+        "Number": "10033",
+        "Name": "Linnégatan"
+      },
+      {
+        "Number": "10035",
+        "Name": "Humlegården"
+      },
+      {
+        "Number": "10037",
+        "Name": "Nybrogatan"
+      },
+      {
+        "Number": "10043",
+        "Name": "Jungfrugatan"
+      },
+      {
+        "Number": "10045",
+        "Name": "Värtavägen"
+      },
+      {
+        "Number": "10052",
+        "Name": "Frihamnsporten"
+      },
+      {
+        "Number": "10054",
+        "Name": "Sehlstedtsgatan"
+      },
+      {
+        "Number": "10056",
+        "Name": "Östhammarsgatan"
+      },
+      {
+        "Number": "10058",
+        "Name": "Rökubbsgatan"
+      },
+      {
+        "Number": "10060",
+        "Name": "Sandhamnsplan"
+      },
+      {
+        "Number": "10065",
+        "Name": "Celsiusgatan"
+      },
+      {
+        "Number": "10127",
+        "Name": "Frihamnen"
+      },
+      {
+        "Number": "10153",
+        "Name": "Storskärsgatan"
+      },
+      {
+        "Number": "10155",
+        "Name": "Kampementsbacken"
+      },
+      {
+        "Number": "10157",
+        "Name": "Gärdet"
+      },
+      {
+        "Number": "10450",
+        "Name": "Wivalliusgatan"
+      },
+      {
+        "Number": "10452",
+        "Name": "Lilla Essingen"
+      },
+      {
+        "Number": "10454",
+        "Name": "Primusgatan"
+      },
+      {
+        "Number": "10456",
+        "Name": "Broparken"
+      },
+      {
+        "Number": "10462",
+        "Name": "Fyrverkarbacken"
+      },
+      {
+        "Number": "10505",
+        "Name": "Regeringsgatan"
+      },
+      {
+        "Number": "10644",
+        "Name": "Mariebergsgatan"
+      },
+      {
+        "Number": "10728",
+        "Name": "Västerbroplan"
+      },
+      {
+        "Number": "10736",
+        "Name": "Essingetorget"
+      },
+      {
+        "Number": "10742",
+        "Name": "Fridhemsplan"
+      },
+      {
+        "Number": "10756",
+        "Name": "Flottbrovägen"
+      }
+    ]
+  },
+  {
+    "LineNumber": "118",
+    "TotalNumberOfBusStops": 57,
+    "BusStops": [
+      {
+        "Number": "12140",
+        "Name": "Spånga station"
+      },
+      {
+        "Number": "12304",
+        "Name": "Fjällnäsgatan"
+      },
+      {
+        "Number": "12306",
+        "Name": "Tornedalsgatan"
+      },
+      {
+        "Number": "12310",
+        "Name": "Rättar Vigs väg"
+      },
+      {
+        "Number": "12312",
+        "Name": "Järneksvägen"
+      },
+      {
+        "Number": "12314",
+        "Name": "Nälstaplan"
+      },
+      {
+        "Number": "12316",
+        "Name": "Inspektorsbacken"
+      },
+      {
+        "Number": "12318",
+        "Name": "Västergöksvägen"
+      },
+      {
+        "Number": "12320",
+        "Name": "Östergårdsvägen"
+      },
+      {
+        "Number": "12322",
+        "Name": "Täbylundsvägen"
+      },
+      {
+        "Number": "12326",
+        "Name": "Solhöjden"
+      },
+      {
+        "Number": "12328",
+        "Name": "Spånga idrottsplats"
+      },
+      {
+        "Number": "12330",
+        "Name": "Cervins väg"
+      },
+      {
+        "Number": "12332",
+        "Name": "Bromstens gård"
+      },
+      {
+        "Number": "12334",
+        "Name": "Bromstens idrottsplats"
+      },
+      {
+        "Number": "12458",
+        "Name": "Svandammen"
+      },
+      {
+        "Number": "12460",
+        "Name": "Värsta allé"
+      },
+      {
+        "Number": "12478",
+        "Name": "Vällingby"
+      },
+      {
+        "Number": "50073",
+        "Name": "Mamrevägen"
+      },
+      {
+        "Number": "50075",
+        "Name": "Bromstens skola"
+      },
+      {
+        "Number": "50077",
+        "Name": "Bromstensplan"
+      },
+      {
+        "Number": "50227",
+        "Name": "Hallonbergen"
+      },
+      {
+        "Number": "50313",
+        "Name": "Rissnehallen"
+      },
+      {
+        "Number": "50315",
+        "Name": "Hallonbergsvägen"
+      },
+      {
+        "Number": "50317",
+        "Name": "Bergshöjden"
+      },
+      {
+        "Number": "50321",
+        "Name": "Rissne"
+      },
+      {
+        "Number": "51056",
+        "Name": "Rissneleden"
+      },
+      {
+        "Number": "51154",
+        "Name": "Lavettvägen"
+      },
+      {
+        "Number": "12303",
+        "Name": "Fjällnäsgatan"
+      },
+      {
+        "Number": "12305",
+        "Name": "Tornedalsgatan"
+      },
+      {
+        "Number": "12307",
+        "Name": "Täbylundsvägen"
+      },
+      {
+        "Number": "12309",
+        "Name": "Rättar Vigs väg"
+      },
+      {
+        "Number": "12311",
+        "Name": "Järneksvägen"
+      },
+      {
+        "Number": "12313",
+        "Name": "Nälstaplan"
+      },
+      {
+        "Number": "12315",
+        "Name": "Inspektorsbacken"
+      },
+      {
+        "Number": "12317",
+        "Name": "Västergöksvägen"
+      },
+      {
+        "Number": "12321",
+        "Name": "Renstigen"
+      },
+      {
+        "Number": "12325",
+        "Name": "Solhöjden"
+      },
+      {
+        "Number": "12327",
+        "Name": "Spånga idrottsplats"
+      },
+      {
+        "Number": "12329",
+        "Name": "Bromstens idrottsplats"
+      },
+      {
+        "Number": "12331",
+        "Name": "Bromstens gård"
+      },
+      {
+        "Number": "12347",
+        "Name": "Cervins väg"
+      },
+      {
+        "Number": "12451",
+        "Name": "Vällingby"
+      },
+      {
+        "Number": "12459",
+        "Name": "Svandammen"
+      },
+      {
+        "Number": "12461",
+        "Name": "Värsta allé"
+      },
+      {
+        "Number": "12533",
+        "Name": "Rissne"
+      },
+      {
+        "Number": "12535",
+        "Name": "Skvadronsbacken"
+      },
+      {
+        "Number": "50074",
+        "Name": "Mamrevägen"
+      },
+      {
+        "Number": "50076",
+        "Name": "Bromstens skola"
+      },
+      {
+        "Number": "50078",
+        "Name": "Bromstensplan"
+      },
+      {
+        "Number": "50080",
+        "Name": "Spånga station"
+      },
+      {
+        "Number": "50227",
+        "Name": "Hallonbergen"
+      },
+      {
+        "Number": "50314",
+        "Name": "Rissnehallen"
+      },
+      {
+        "Number": "50316",
+        "Name": "Hallonbergsvägen"
+      },
+      {
+        "Number": "50318",
+        "Name": "Bergshöjden"
+      },
+      {
+        "Number": "51054",
+        "Name": "Rissneleden"
+      },
+      {
+        "Number": "51153",
+        "Name": "Lavettvägen"
+      }
+    ]
+  },
+  {
+    "LineNumber": "112",
+    "TotalNumberOfBusStops": 46,
+    "BusStops": [
+      {
+        "Number": "12024",
+        "Name": "Gamla Bromstensvägen"
+      },
+      {
+        "Number": "12030",
+        "Name": "Grenvägen"
+      },
+      {
+        "Number": "12034",
+        "Name": "Ulvsunda slott"
+      },
+      {
+        "Number": "12040",
+        "Name": "Ranhammarsvägen"
+      },
+      {
+        "Number": "12042",
+        "Name": "Lintavägen"
+      },
+      {
+        "Number": "12048",
+        "Name": "Ekbacksvägen"
+      },
+      {
+        "Number": "12098",
+        "Name": "Ulvsundaplan"
+      },
+      {
+        "Number": "12106",
+        "Name": "Smältvägen"
+      },
+      {
+        "Number": "12108",
+        "Name": "Karlsbodavägen"
+      },
+      {
+        "Number": "12112",
+        "Name": "Mariehäll"
+      },
+      {
+        "Number": "12114",
+        "Name": "Mariehällskyrkan"
+      },
+      {
+        "Number": "12116",
+        "Name": "Solvalla"
+      },
+      {
+        "Number": "12118",
+        "Name": "Skorpvägen"
+      },
+      {
+        "Number": "12120",
+        "Name": "Ankarstocksvägen"
+      },
+      {
+        "Number": "12122",
+        "Name": "Vandrarstigen"
+      },
+      {
+        "Number": "12126",
+        "Name": "Herdevägen"
+      },
+      {
+        "Number": "12128",
+        "Name": "Logvägen"
+      },
+      {
+        "Number": "12130",
+        "Name": "Spångavägen"
+      },
+      {
+        "Number": "12143",
+        "Name": "Alvik"
+      },
+      {
+        "Number": "12324",
+        "Name": "Spånga station"
+      },
+      {
+        "Number": "12400",
+        "Name": "Grindstuvägen"
+      },
+      {
+        "Number": "12407",
+        "Name": "Tranebergsplan"
+      },
+      {
+        "Number": "12023",
+        "Name": "Gamla Bromstensvägen"
+      },
+      {
+        "Number": "12029",
+        "Name": "Ulvsundaplan"
+      },
+      {
+        "Number": "12031",
+        "Name": "Grenvägen"
+      },
+      {
+        "Number": "12033",
+        "Name": "Ulvsunda slott"
+      },
+      {
+        "Number": "12035",
+        "Name": "Norrbyvägen"
+      },
+      {
+        "Number": "12037",
+        "Name": "Ekbacksvägen"
+      },
+      {
+        "Number": "12039",
+        "Name": "Ranhammarsvägen"
+      },
+      {
+        "Number": "12041",
+        "Name": "Lintavägen"
+      },
+      {
+        "Number": "12045",
+        "Name": "Tranebergsplan"
+      },
+      {
+        "Number": "12047",
+        "Name": "Grindstuvägen"
+      },
+      {
+        "Number": "12105",
+        "Name": "Smältvägen"
+      },
+      {
+        "Number": "12107",
+        "Name": "Karlsbodavägen"
+      },
+      {
+        "Number": "12109",
+        "Name": "Askängsbacken"
+      },
+      {
+        "Number": "12111",
+        "Name": "Mariehäll"
+      },
+      {
+        "Number": "12113",
+        "Name": "Mariehällskyrkan"
+      },
+      {
+        "Number": "12115",
+        "Name": "Solvalla"
+      },
+      {
+        "Number": "12117",
+        "Name": "Skorpvägen"
+      },
+      {
+        "Number": "12119",
+        "Name": "Ankarstocksvägen"
+      },
+      {
+        "Number": "12121",
+        "Name": "Vandrarstigen"
+      },
+      {
+        "Number": "12125",
+        "Name": "Herdevägen"
+      },
+      {
+        "Number": "12127",
+        "Name": "Logvägen"
+      },
+      {
+        "Number": "12129",
+        "Name": "Spångavägen"
+      },
+      {
+        "Number": "12143",
+        "Name": "Alvik"
+      },
+      {
+        "Number": "12324",
+        "Name": "Spånga station"
+      }
+    ]
+  },
+  {
+    "LineNumber": "113",
+    "TotalNumberOfBusStops": 44,
+    "BusStops": [
+      {
+        "Number": "12112",
+        "Name": "Mariehäll"
+      },
+      {
+        "Number": "12114",
+        "Name": "Mariehällskyrkan"
+      },
+      {
+        "Number": "12116",
+        "Name": "Solvalla"
+      },
+      {
+        "Number": "12164",
+        "Name": "Dr Abrahams väg"
+      },
+      {
+        "Number": "12175",
+        "Name": "Huvudsta centrum"
+      },
+      {
+        "Number": "12264",
+        "Name": "Bällstavägen"
+      },
+      {
+        "Number": "12505",
+        "Name": "Armégatan"
+      },
+      {
+        "Number": "50052",
+        "Name": "Vretenvägen"
+      },
+      {
+        "Number": "50062",
+        "Name": "Löfströms allé"
+      },
+      {
+        "Number": "50124",
+        "Name": "Krysshammarvägen"
+      },
+      {
+        "Number": "50126",
+        "Name": "Släggbacken"
+      },
+      {
+        "Number": "50131",
+        "Name": "Rödbetan"
+      },
+      {
+        "Number": "50133",
+        "Name": "Biddlesberg"
+      },
+      {
+        "Number": "50135",
+        "Name": "Skoga"
+      },
+      {
+        "Number": "50137",
+        "Name": "Huvudsta allé"
+      },
+      {
+        "Number": "50231",
+        "Name": "Storgatan"
+      },
+      {
+        "Number": "50236",
+        "Name": "Västra skogen"
+      },
+      {
+        "Number": "50238",
+        "Name": "Göran Perssons väg"
+      },
+      {
+        "Number": "50240",
+        "Name": "Tritonvägen"
+      },
+      {
+        "Number": "50242",
+        "Name": "Sundbybergs torg"
+      },
+      {
+        "Number": "50411",
+        "Name": "Gjuteribacken"
+      },
+      {
+        "Number": "50727",
+        "Name": "Solna centrum"
+      },
+      {
+        "Number": "12109",
+        "Name": "Askängsbacken"
+      },
+      {
+        "Number": "12111",
+        "Name": "Mariehäll"
+      },
+      {
+        "Number": "12113",
+        "Name": "Mariehällskyrkan"
+      },
+      {
+        "Number": "12115",
+        "Name": "Solvalla"
+      },
+      {
+        "Number": "12163",
+        "Name": "Dr Abrahams väg"
+      },
+      {
+        "Number": "12263",
+        "Name": "Bällstavägen"
+      },
+      {
+        "Number": "12504",
+        "Name": "Armégatan"
+      },
+      {
+        "Number": "50063",
+        "Name": "Löfströms allé"
+      },
+      {
+        "Number": "50123",
+        "Name": "Västra skogen"
+      },
+      {
+        "Number": "50125",
+        "Name": "Krysshammarvägen"
+      },
+      {
+        "Number": "50127",
+        "Name": "Släggbacken"
+      },
+      {
+        "Number": "50131",
+        "Name": "Rödbetan"
+      },
+      {
+        "Number": "50133",
+        "Name": "Biddlesberg"
+      },
+      {
+        "Number": "50135",
+        "Name": "Skoga"
+      },
+      {
+        "Number": "50232",
+        "Name": "Storgatan"
+      },
+      {
+        "Number": "50235",
+        "Name": "Huvudsta centrum"
+      },
+      {
+        "Number": "50237",
+        "Name": "Göran Perssons väg"
+      },
+      {
+        "Number": "50239",
+        "Name": "Vretenvägen"
+      },
+      {
+        "Number": "50241",
+        "Name": "Gjuteribacken"
+      },
+      {
+        "Number": "50243",
+        "Name": "Sundbybergs torg"
+      },
+      {
+        "Number": "50726",
+        "Name": "Solna centrum"
+      },
+      {
+        "Number": "51331",
+        "Name": "Tritonvägen"
+      }
+    ]
+  },
+  {
+    "LineNumber": "117",
+    "TotalNumberOfBusStops": 42,
+    "BusStops": [
+      {
+        "Number": "12146",
+        "Name": "Sedumbacken"
+      },
+      {
+        "Number": "12254",
+        "Name": "Salixvägen"
+      },
+      {
+        "Number": "12256",
+        "Name": "Kortenslund"
+      },
+      {
+        "Number": "12258",
+        "Name": "Attundavägen"
+      },
+      {
+        "Number": "12260",
+        "Name": "Bromma kyrka"
+      },
+      {
+        "Number": "12262",
+        "Name": "Vultejusvägen"
+      },
+      {
+        "Number": "12264",
+        "Name": "Bällstavägen"
+      },
+      {
+        "Number": "12266",
+        "Name": "Styresman Sanders väg"
+      },
+      {
+        "Number": "12268",
+        "Name": "Sundbyvägen"
+      },
+      {
+        "Number": "12270",
+        "Name": "Kopparbacken"
+      },
+      {
+        "Number": "12272",
+        "Name": "Flystaslingan"
+      },
+      {
+        "Number": "12274",
+        "Name": "Skogslöparvägen"
+      },
+      {
+        "Number": "12276",
+        "Name": "Spånga Folkets hus"
+      },
+      {
+        "Number": "12278",
+        "Name": "Solhagavägen"
+      },
+      {
+        "Number": "12280",
+        "Name": "Spånga gymnasium"
+      },
+      {
+        "Number": "12282",
+        "Name": "Urban Hjärnes väg"
+      },
+      {
+        "Number": "12288",
+        "Name": "Vadmalsvägen"
+      },
+      {
+        "Number": "12324",
+        "Name": "Spånga station"
+      },
+      {
+        "Number": "12458",
+        "Name": "Svandammen"
+      },
+      {
+        "Number": "12460",
+        "Name": "Värsta allé"
+      },
+      {
+        "Number": "15302",
+        "Name": "Brommaplan"
+      },
+      {
+        "Number": "12147",
+        "Name": "Sedumbacken"
+      },
+      {
+        "Number": "12253",
+        "Name": "Salixvägen"
+      },
+      {
+        "Number": "12255",
+        "Name": "Kortenslund"
+      },
+      {
+        "Number": "12257",
+        "Name": "Attundavägen"
+      },
+      {
+        "Number": "12259",
+        "Name": "Bromma kyrka"
+      },
+      {
+        "Number": "12261",
+        "Name": "Vultejusvägen"
+      },
+      {
+        "Number": "12263",
+        "Name": "Bällstavägen"
+      },
+      {
+        "Number": "12265",
+        "Name": "Styresman Sanders väg"
+      },
+      {
+        "Number": "12267",
+        "Name": "Sundbyvägen"
+      },
+      {
+        "Number": "12269",
+        "Name": "Kopparbacken"
+      },
+      {
+        "Number": "12271",
+        "Name": "Flystaslingan"
+      },
+      {
+        "Number": "12273",
+        "Name": "Skogslöparvägen"
+      },
+      {
+        "Number": "12275",
+        "Name": "Spånga Folkets hus"
+      },
+      {
+        "Number": "12277",
+        "Name": "Solhagavägen"
+      },
+      {
+        "Number": "12279",
+        "Name": "Spånga gymnasium"
+      },
+      {
+        "Number": "12281",
+        "Name": "Urban Hjärnes väg"
+      },
+      {
+        "Number": "12287",
+        "Name": "Vadmalsvägen"
+      },
+      {
+        "Number": "12324",
+        "Name": "Spånga station"
+      },
+      {
+        "Number": "12459",
+        "Name": "Svandammen"
+      },
+      {
+        "Number": "12461",
+        "Name": "Värsta allé"
+      },
+      {
+        "Number": "15363",
+        "Name": "Brommaplan"
+      }
+    ]
+  },
+  {
+    "LineNumber": "143",
+    "TotalNumberOfBusStops": 40,
+    "BusStops": [
+      {
+        "Number": "13313",
+        "Name": "Varuvägen"
+      },
+      {
+        "Number": "13315",
+        "Name": "Ormkärrsvägen"
+      },
+      {
+        "Number": "13317",
+        "Name": "Älvsjöbadet"
+      },
+      {
+        "Number": "13319",
+        "Name": "Konsumentvägen"
+      },
+      {
+        "Number": "13323",
+        "Name": "Rågsved"
+      },
+      {
+        "Number": "13327",
+        "Name": "Högdalsdepån"
+      },
+      {
+        "Number": "13331",
+        "Name": "Selaövägen"
+      },
+      {
+        "Number": "13333",
+        "Name": "Hagsätra"
+      },
+      {
+        "Number": "13335",
+        "Name": "Lerbäcksgränd"
+      },
+      {
+        "Number": "13437",
+        "Name": "Älvsjö station"
+      },
+      {
+        "Number": "13492",
+        "Name": "Esplundagränd"
+      },
+      {
+        "Number": "13494",
+        "Name": "Stjärnsundsgatan"
+      },
+      {
+        "Number": "13496",
+        "Name": "Hagsätramotet"
+      },
+      {
+        "Number": "14000",
+        "Name": "Högdalen"
+      },
+      {
+        "Number": "70843",
+        "Name": "Högdalens industri"
+      },
+      {
+        "Number": "70849",
+        "Name": "Gubbängens idrottsplats"
+      },
+      {
+        "Number": "70851",
+        "Name": "Getfotsvägen"
+      },
+      {
+        "Number": "70853",
+        "Name": "Gubbängen"
+      },
+      {
+        "Number": "70855",
+        "Name": "Hökarängen"
+      },
+      {
+        "Number": "13252",
+        "Name": "Hagsätra"
+      },
+      {
+        "Number": "13314",
+        "Name": "Varuvägen"
+      },
+      {
+        "Number": "13316",
+        "Name": "Ormkärrsvägen"
+      },
+      {
+        "Number": "13319",
+        "Name": "Konsumentvägen"
+      },
+      {
+        "Number": "13320",
+        "Name": "Älvsjöbadet"
+      },
+      {
+        "Number": "13324",
+        "Name": "Rågsved"
+      },
+      {
+        "Number": "13326",
+        "Name": "Högdalen"
+      },
+      {
+        "Number": "13328",
+        "Name": "Högdalsdepån"
+      },
+      {
+        "Number": "13330",
+        "Name": "Selaövägen"
+      },
+      {
+        "Number": "13332",
+        "Name": "Konsumentvägen"
+      },
+      {
+        "Number": "13336",
+        "Name": "Lerbäcksgränd"
+      },
+      {
+        "Number": "13398",
+        "Name": "Älvsjö station"
+      },
+      {
+        "Number": "13491",
+        "Name": "Esplundagränd"
+      },
+      {
+        "Number": "13493",
+        "Name": "Stjärnsundsgatan"
+      },
+      {
+        "Number": "13495",
+        "Name": "Hagsätramotet"
+      },
+      {
+        "Number": "13904",
+        "Name": "Trollesundsvägen"
+      },
+      {
+        "Number": "70844",
+        "Name": "Högdalens industri"
+      },
+      {
+        "Number": "70850",
+        "Name": "Gubbängens idrottsplats"
+      },
+      {
+        "Number": "70852",
+        "Name": "Getfotsvägen"
+      },
+      {
+        "Number": "70854",
+        "Name": "Gubbängen"
+      },
+      {
+        "Number": "70856",
+        "Name": "Hökarängen"
+      }
+    ]
+  },
+  {
+    "LineNumber": "129",
+    "TotalNumberOfBusStops": 40,
+    "BusStops": [
+      {
+        "Number": "12035",
+        "Name": "Norrbyvägen"
+      },
+      {
+        "Number": "12037",
+        "Name": "Ekbacksvägen"
+      },
+      {
+        "Number": "12039",
+        "Name": "Ranhammarsvägen"
+      },
+      {
+        "Number": "12041",
+        "Name": "Lintavägen"
+      },
+      {
+        "Number": "12105",
+        "Name": "Smältvägen"
+      },
+      {
+        "Number": "12107",
+        "Name": "Karlsbodavägen"
+      },
+      {
+        "Number": "12219",
+        "Name": "Riksbyvägen"
+      },
+      {
+        "Number": "12221",
+        "Name": "Hemslöjdsvägen"
+      },
+      {
+        "Number": "12223",
+        "Name": "Jetverkstäderna"
+      },
+      {
+        "Number": "12567",
+        "Name": "Brommaplan"
+      },
+      {
+        "Number": "50044",
+        "Name": "Skytteholmsskolan"
+      },
+      {
+        "Number": "50046",
+        "Name": "Framnäsbacken"
+      },
+      {
+        "Number": "50048",
+        "Name": "Ankdammsgatan"
+      },
+      {
+        "Number": "50050",
+        "Name": "Solnahallen"
+      },
+      {
+        "Number": "50052",
+        "Name": "Vretenvägen"
+      },
+      {
+        "Number": "50062",
+        "Name": "Löfströms allé"
+      },
+      {
+        "Number": "50240",
+        "Name": "Tritonvägen"
+      },
+      {
+        "Number": "50242",
+        "Name": "Sundbybergs torg"
+      },
+      {
+        "Number": "50411",
+        "Name": "Gjuteribacken"
+      },
+      {
+        "Number": "50727",
+        "Name": "Solna centrum"
+      },
+      {
+        "Number": "12036",
+        "Name": "Norrbyvägen"
+      },
+      {
+        "Number": "12040",
+        "Name": "Ranhammarsvägen"
+      },
+      {
+        "Number": "12042",
+        "Name": "Lintavägen"
+      },
+      {
+        "Number": "12048",
+        "Name": "Ekbacksvägen"
+      },
+      {
+        "Number": "12106",
+        "Name": "Smältvägen"
+      },
+      {
+        "Number": "12108",
+        "Name": "Karlsbodavägen"
+      },
+      {
+        "Number": "12220",
+        "Name": "Riksbyvägen"
+      },
+      {
+        "Number": "12222",
+        "Name": "Hemslöjdsvägen"
+      },
+      {
+        "Number": "12224",
+        "Name": "Jetverkstäderna"
+      },
+      {
+        "Number": "15302",
+        "Name": "Brommaplan"
+      },
+      {
+        "Number": "50043",
+        "Name": "Skytteholmsskolan"
+      },
+      {
+        "Number": "50045",
+        "Name": "Framnäsbacken"
+      },
+      {
+        "Number": "50047",
+        "Name": "Ankdammsgatan"
+      },
+      {
+        "Number": "50049",
+        "Name": "Solnahallen"
+      },
+      {
+        "Number": "50063",
+        "Name": "Löfströms allé"
+      },
+      {
+        "Number": "50239",
+        "Name": "Vretenvägen"
+      },
+      {
+        "Number": "50241",
+        "Name": "Gjuteribacken"
+      },
+      {
+        "Number": "50243",
+        "Name": "Sundbybergs torg"
+      },
+      {
+        "Number": "50721",
+        "Name": "Solna centrum"
+      },
+      {
+        "Number": "51331",
+        "Name": "Tritonvägen"
+      }
+    ]
+  }
+]

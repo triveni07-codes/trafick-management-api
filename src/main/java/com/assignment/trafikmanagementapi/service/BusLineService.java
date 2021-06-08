@@ -27,7 +27,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class BusLineService {
 
-  private final int MAX_BUS_LINES = 10;
+  private static final int MAX_BUS_LINES = 10;
 
   @Autowired
   FileReader fileReader;
@@ -60,11 +60,8 @@ public class BusLineService {
   }
 
   private List<BusLineDetailsDto> extractBusLinesWithBusStopNumbers() {
-    // LineModelResponseData lineModelResponseData = trafikLabClient.getAllBusLines().getLineModelResponseData();
-    LineModelResponseData lineModelResponseData = fileReader
-        .loadInputData("json/response-data.json", TrafikLabLineResponse.class)
-        .getLineModelResponseData();
-
+     LineModelResponseData lineModelResponseData = trafikLabClient.getAllBusLines().getLineModelResponseData();
+     
     final Map<String, List<BusLine>> groupedBusLines = lineModelResponseData.getBusLines().stream()
         .collect(groupingBy(BusLine::getLineNumber));
 
