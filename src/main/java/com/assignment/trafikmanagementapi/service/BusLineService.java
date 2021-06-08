@@ -9,7 +9,6 @@ import com.assignment.trafikmanagementapi.model.BusStop;
 import com.assignment.trafikmanagementapi.model.LineModelResponseData;
 import com.assignment.trafikmanagementapi.model.StopPoint;
 import com.assignment.trafikmanagementapi.model.StopPointModelResponseData;
-import com.assignment.trafikmanagementapi.model.TrafikLabLineResponse;
 import com.assignment.trafikmanagementapi.util.FileReader;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
@@ -60,8 +59,8 @@ public class BusLineService {
   }
 
   private List<BusLineDetailsDto> extractBusLinesWithBusStopNumbers() {
-     LineModelResponseData lineModelResponseData = trafikLabClient.getAllBusLines().getLineModelResponseData();
-     
+    LineModelResponseData lineModelResponseData = trafikLabClient.getAllBusLines().getLineModelResponseData();
+
     final Map<String, List<BusLine>> groupedBusLines = lineModelResponseData.getBusLines().stream()
         .collect(groupingBy(BusLine::getLineNumber));
 
