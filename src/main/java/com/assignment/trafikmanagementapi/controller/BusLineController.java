@@ -1,6 +1,6 @@
 package com.assignment.trafikmanagementapi.controller;
 
-import com.assignment.trafikmanagementapi.model.BusLine;
+import com.assignment.trafikmanagementapi.model.BusLineDetailsDto;
 import com.assignment.trafikmanagementapi.service.BusLineService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -33,8 +33,8 @@ public class BusLineController {
       @ApiResponse(code = 404, message = "Buslines not found")})
   @GetMapping(value = "/buslines",
       produces = {"application/json"})
-  ResponseEntity<List<BusLine>> getTop10BusLines() {
-    return new ResponseEntity<List<BusLine>>(busLineService.getTop10BusLines(), HttpStatus.OK);
+  ResponseEntity<List<BusLineDetailsDto>> getTop10BusLines() {
+    return new ResponseEntity<List<BusLineDetailsDto>>(busLineService.getTop10BusLines(), HttpStatus.OK);
   }
 
 }
