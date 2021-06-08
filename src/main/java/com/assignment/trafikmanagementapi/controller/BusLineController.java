@@ -35,7 +35,7 @@ public class BusLineController {
       @ApiResponse(code = 404, message = "Buslines not found")})
   @GetMapping(value = "/buslines",
       produces = {"application/json"})
-  ResponseEntity<List<BusLineDetailsDto>> getTop10BusLines() {
+  public ResponseEntity<List<BusLineDetailsDto>> getTop10BusLines() {
     return new ResponseEntity<List<BusLineDetailsDto>>(busLineService.getTopBusLines(), HttpStatus.OK);
   }
 
