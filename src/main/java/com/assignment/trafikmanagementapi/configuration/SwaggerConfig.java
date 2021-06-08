@@ -1,4 +1,4 @@
-package com.assignment.trafickmanagementapi.configuration;
+package com.assignment.trafikmanagementapi.configuration;
 
 import com.google.common.base.Predicates;
 import org.springframework.beans.factory.annotation.Value;
@@ -19,8 +19,8 @@ public class SwaggerConfig {
   private String version;
 
   private ApiInfo apiInfo() {
-    return new ApiInfoBuilder().title("TRAFICK-MANAGEMENT-API")
-        .description("Java backend api for trafick management")
+    return new ApiInfoBuilder().title("TRAFIK-MANAGEMENT-API")
+        .description("Java backend api for trafik management")
         .version(version).build();
   }
 

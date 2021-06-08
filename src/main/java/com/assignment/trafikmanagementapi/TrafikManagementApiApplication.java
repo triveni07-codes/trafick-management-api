@@ -1,13 +1,13 @@
-package com.assignment.trafickmanagementapi;
+package com.assignment.trafikmanagementapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TrafickManagementApiApplication {
+public class TrafikManagementApiApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(TrafickManagementApiApplication.class, args);
+    SpringApplication.run(TrafikManagementApiApplication.class, args);
   }
 
 }

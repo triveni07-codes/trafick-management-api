@@ -1,10 +1,10 @@
-package com.assignment.trafickmanagementapi;
+package com.assignment.trafikmanagementapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TrafickManagementApiApplicationTests {
+class TrafikManagementApiApplicationTests {
 
 	@Test
 	void contextLoads() {
