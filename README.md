@@ -17,6 +17,7 @@ This application holds backend part only: written using Java and Spring boot fra
 Backend requires Java SDK 11, Maven build tool version 3.6.2 to build and run.
 
 Install the dependencies and devDependencies and start the server.
+Replace value of ${API_KEY} in local-properties file with YOUR_API_KEY value
 
 ```sh
 cd trafick-management-api
