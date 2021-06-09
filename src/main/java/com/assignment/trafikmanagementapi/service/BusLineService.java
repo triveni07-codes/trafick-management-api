@@ -9,8 +9,6 @@ import com.assignment.trafikmanagementapi.model.BusStop;
 import com.assignment.trafikmanagementapi.model.LineModelResponseData;
 import com.assignment.trafikmanagementapi.model.StopPoint;
 import com.assignment.trafikmanagementapi.model.StopPointModelResponseData;
-import com.assignment.trafikmanagementapi.util.FileReader;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -28,10 +26,6 @@ public class BusLineService {
 
   private static final int MAX_BUS_LINES = 10;
 
-  @Autowired
-  FileReader fileReader;
-  @Autowired
-  ObjectMapper objectMapper;
   @Autowired
   private TrafikLabClient trafikLabClient;
 
