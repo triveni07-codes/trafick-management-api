@@ -27,3 +27,6 @@ mvn sping-boot:run
 
 Once we start both the applications locally, backend is available on [http://localhost:8080/swagger-ui.html]
 
+## Testing 
+Endpoint path to get top 10 buslines via postman:
+´http://localhost:8080/api/buslines´
