@@ -19,4 +19,10 @@ public class BusLine {
   @JsonProperty("JourneyPatternPointNumber")
   private String journeyPatternPointNumber;
 
+  @JsonProperty("LastModifiedUtcDateTime")
+  private String lastModifiedUtcDateTime;
+
+  @JsonProperty("ExistsFromDate")
+  private String existsFromDate;
+
 }
